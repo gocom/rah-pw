@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+@-webkit-viewport {
+    width: device-width;
+}
+
+@-moz-viewport {
+    width: device-width;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font: 1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #9da8ab;
+    line-height: 1.7;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+    background: #fff;
+}
+
+body, table, td, th, pre, code, select, input, legend {
+    font-size: 1em;
+}
+
+a {
+    color: #6bc3e7;
+    text-decoration: none;
+    transition: color 0.5s, background 0.5s;
+}
+
+a:hover,
+a:focus {
+    color: #63b4d5;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, p, pre, table {
+    margin: 0 0 2em 0;
+}
+
+/**
+ * Headings.
+ */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #363636;
+}
+
+h1, h2 {
+    font-size: 2em;
+    margin: 0 0 1em 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0 0 0.5em 0;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+/**
+ * Vertical middle grid
+ */
+
+.vertical-grid {
+    margin: 0 auto;
+    height: 100%;
+    display: table;
+}
+
+.vertical-grid > .cell {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+/**
+ * Lists.
+ */
+
+ul {
+    list-style: none;
+}
+
+section ul li:before {
+    content: "\f10c";
+    font: 1em FontAwesome;
+    padding: 0 0.5em 0 0;
+}
+
+/**
+ * Inline typo.
+ */
+
+mark {
+    background: #daeffa;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+abbr {
+    cursor: help;
+    border-bottom: 1px dotted #363636;
+}
+
+small {
+    font-size: 0.9em;
+}
+
+/**
+ * Code.
+ */
+
+pre, code {
+    color: #9da8ab;
+    font-family: Inconsolata;
+    background: #daeffa;
+}
+
+pre {
+    background: #daeffa;
+    padding: 1em;
+    border: 1px solid #d0e8f0;
+    border-radius: 0.25em;
+    overflow: auto;
+}
+
+/**
+ * Tables.
+ */
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+th {
+    font-weight: bold;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0.5em 1em;
+    border: 1px solid #daeffa;
+}
+
+/**
+ * Header.
+ */
+
+header {
+    background: #eee;
+    background: url(../img/lighthouse.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font: 8em "Lily Script One";
+    line-height: 1;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+header p {
+    margin: 1em auto  0 auto;
+    max-width: 20em;
+}
+
+.slogan {
+    margin-top: 0;
+}
+
+header > div {
+    padding: 10%;
+}
